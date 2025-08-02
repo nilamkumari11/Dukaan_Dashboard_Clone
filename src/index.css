@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sidebar : #1E2640;
+  --color-sidebarText : #C8C9D0;
+  --color-sbCardBg : #4A5065;
+  --color-sbDownBg : #353C53;
+  --color-sidebarHover : #353C53;
+}
