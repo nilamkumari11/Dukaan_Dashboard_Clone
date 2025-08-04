@@ -1,7 +1,7 @@
 export const Sidebar = ({ isOpen }) => {
     return (
         
-        <div className={`h-screen w-55 p-2 bg-sidebar text-gray-500 z-30 transition-transform transform
+        <div className={`fixed h-screen w-55 p-2 bg-sidebar text-gray-500 z-30 transition-transform transform
             ${isOpen ? 'translate-x-0' : '-translate-x-full'} 
             lg:translate-x-0 lg:static lg:block`} >
             <div className="flex items-center">
