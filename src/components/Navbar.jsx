@@ -1,6 +1,6 @@
 export const Navbar = ({ toggleSidebar }) => {
   return (
-    <div className="fixed bg-white shadow-sm h-18 flex justify-between items-center px-6 fixed right-0 top-0 z-10 left-0 lg:left-55 ">
+    <div className=" bg-white shadow-sm h-18 w-full flex items-center px-6 fixed right-0 top-0 z-10 left-0 lg:left-55 ">
       <button className="lg:hidden text-gray-700 mr-4" onClick={toggleSidebar}>
         <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -16,7 +16,7 @@ export const Navbar = ({ toggleSidebar }) => {
         <div className="text-gray-700 text-sm ml-1 hidden md:block">How it works</div>
       </div>
 
-        <div className="flex items-center bg-gray-100 pl-2 "> 
+        <div className="flex items-center bg-gray-100 pl-2 ml-45"> 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="gray" class="size-5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
             </svg>
@@ -26,7 +26,7 @@ export const Navbar = ({ toggleSidebar }) => {
                 className="p-3 bg-gray-100 w-20 sm:w-70 outline-none focus:ring-0"
             ></input>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center ml-50">
             <div className="bg-gray-200 p-2 rounded-full m-2">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#555555" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="size-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
